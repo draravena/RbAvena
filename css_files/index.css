@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color:gray;
+}
+
+#main_heading_div {
+  margin-top:2.5%;
+}
+
+#main_heading {
+  text-align:center;
+}
+
+#global_warming_opt_div {
+  position:absolute;
+  width:324px;
+  height:184px;
+  background-color:black;
+  margin-left:10%;  
+}
+
+#global_warming_opt {
+  padding-left:2px;
+  padding-top:2px;
+  width:320px;
+  height:180px;
+}
+
+#pandemics_opt_div {
+  position:absolute;
+  width:324px;
+  height:184px;
+  background-color:black;
+  margin-left:20%;
+  margin-top:15%;
+}
+
+#pandemics_opt {
+  padding-left:2px;
+  padding-top:2px;
+  width:320px;
+  height:180px;
+}
+
+#destabilizing_regions_opt_div {
+  position:absolute;
+  right:0;
+  width:324px;
+  height:184px;
+  background-color:black;
+  margin-right:20%;
+  margin-top:15%;
+}
+
+#destabilizing_regions_opt {
+  padding-left:2px;
+  padding-top:2px;
+  width:320px;
+  height:180px;
+}
+
+#poverty_opt_div {
+  right:0;
+  margin-right:10%;
+  position:absolute;
+  width:324px;
+  height:184px;
+  background-color:black;
+}
+
+#poverty_opt {
+  padding-left:2px;
+  padding-top:2px;
+  width:320px;
+  height:180px;
+}
+
+#description {
+}
+
+#line {
+  margin-top:30%;
+}
+
