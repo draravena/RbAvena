@@ -1,26 +1,34 @@
 body {
   height: 100%;
   width: 100%;
-  background-color:gray;
 }
 
-#main_heading_div {
-  margin-top:2.5%;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 
 #main_heading {
-  text-align:center;
+  position:absolute;
+  margin-top:10%;
+  margin-left:-125px;
+  left:50%;
 }
 
 #global_warming_opt_div {
-  position:absolute;
+  display:inline-block;
+  background-color:black;
+  margin-top:5%;
+  margin-left:7.5%;
   width:324px;
   height:184px;
-  background-color:black;
-  margin-left:10%;  
+  
+
 }
 
 #global_warming_opt {
+  display:inline-block;
   padding-left:2px;
   padding-top:2px;
   width:320px;
@@ -28,12 +36,13 @@ body {
 }
 
 #pandemics_opt_div {
-  position:absolute;
+  float:right;
+  background-color:black;
+  margin-top:5%;
+  margin-right:7.5%;
   width:324px;
   height:184px;
-  background-color:black;
-  margin-left:20%;
-  margin-top:15%;
+  
 }
 
 #pandemics_opt {
@@ -44,13 +53,12 @@ body {
 }
 
 #destabilizing_regions_opt_div {
-  position:absolute;
-  right:0;
+  display:inline-block;
+  background-color:black;
+  margin-top:2.5%;
+  margin-left:20%;
   width:324px;
   height:184px;
-  background-color:black;
-  margin-right:20%;
-  margin-top:15%;
 }
 
 #destabilizing_regions_opt {
@@ -61,12 +69,13 @@ body {
 }
 
 #poverty_opt_div {
-  right:0;
-  margin-right:10%;
-  position:absolute;
+  float:right;
+  background-color:black;
+  margin-top:2.5%;
+  margin-right:20%;
   width:324px;
   height:184px;
-  background-color:black;
+ 
 }
 
 #poverty_opt {
@@ -76,10 +85,26 @@ body {
   height:180px;
 }
 
-#description {
+#description_div {
+  position:fixed;
+  display:inline-block;
+  
+  background-color:#635f5f;
+  bottom:0;
+  left:0;
 }
 
-#line {
-  margin-top:30%;
+#description {
+  color:white;
+  text-align:center;
 }
+
+.bg {
+  position:absolute;
+  z-index:-1;
+  height:100vh;
+  width:100%;
+}
+
+
 
