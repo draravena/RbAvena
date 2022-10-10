@@ -56,7 +56,7 @@ gw_opt.addEventListener(`mouseover`, () => {
   heading.innerHTML = "Global Warming";
   heading_div.style.left = gw_heading_offset;
   
-  bg_img.src = "../images/index.html/hover_transitions/global_warming_transition.webp";
+  bg_img.src = "images/index.html/hover_transitions/global_warming_transition.webp";
   bg_img.style.opacity = 1;
 
   gw_img.style.opacity = 0.5;
@@ -76,7 +76,7 @@ pandemics_opt.addEventListener(`mouseover`, () => {
   heading.innerHTML = "Pandemics";
   heading_div.style.left = pandemics_heading_offset;
 
-  bg_img.src = "../images/index.html/hover_transitions/pandemics_transition.webp";
+  bg_img.src = "images/index.html/hover_transitions/pandemics_transition.webp";
   bg_img.style.opacity = 1;
 
   gw_img.style.opacity = 0;
@@ -96,7 +96,7 @@ d_regions_opt.addEventListener(`mouseover`, () => {
   heading.innerHTML = "Global Tension";
   heading_div.style.left = dr_heading_offset;
 
-  bg_img.src = "../images/index.html/hover_transitions/d_regions_transition.webp";
+  bg_img.src = "images/index.html/hover_transitions/d_regions_transition.webp";
   bg_img.style.opacity = 1;
 
   gw_img.style.opacity = 0;
@@ -116,7 +116,7 @@ poverty_opt.addEventListener(`mouseover`, () => {
   heading.innerHTML = "Mass Poverty";
   heading_div.style.left = dr_heading_offset;
 
-  bg_img.src = "../images/index.html/hover_transitions/poverty_transition.jpg";
+  bg_img.src = "images/index.html/hover_transitions/poverty_transition.jpg";
   bg_img.style.opacity = 1;
 
   gw_img.style.opacity = 0;
