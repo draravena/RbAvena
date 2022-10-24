@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
-    <link rel="stylesheet" href="../css_files/global_warming.css">
+    <link rel="stylesheet" href="../css_files/decoration_elements.css">
     <meta charset="utf-8">
 	  <meta name="author" content="David Ryan Ashley R. Avena">
 	  <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -10,16 +10,39 @@
     <title>Global Warming</title>
   </head>
   <body>
-    <div id="topbar_div">
-      <img id="hamburger_icon" src="../images/global_images/hamburger_icon.png">
-    </div>
+    <div id="sidebar">
+      <a href="../index.html">
+        <div id="homepage_div" class="sidebar_divs">
+        <p class="sidebar_content">Homepage</p>
+        </div>
+      </a>
+      <div id="sidebar_div2" class="sidebar_divs">
+        <a href="destabilizing_regions.html">
+          <p class="sidebar_content">Destabilizing <br> Regions</p>
+        </a>
 
-    <div id="descr">
-      What is global warming? Global warming is directly related to climated change and is the increase of temperature on the surface of the Earth. Such increase in temperature may have diverse effects on ecosystems of animals in nature and may even cause the collapse of our society.
-      <br/>
-      This is an immediate problem and should be addressed as fast as possible to ensure that this increase in temperature wont be permanent. If it does become permanent, mass extinctions will occur and the eventual collapse of mankind will be inevitable due to our ignorance to the pressing issue.
+      </div>
+      <div id="sidebar_div3" class="sidebar_divs">
+        <a href="pandemics.html">
+          <p class="sidebar_content">Pandemics</p>
+        </a>
+      </div>
+      <div id="sidebar_div4" class="sidebar_divs">
+        <a href="poverty.html">
+          <p class="sidebar_content">Poverty</p>
+        </a>
+      </div>
     </div>
-    
-    <script src="../javascript_files/global_warming.js"></script>
+    <div id="main">
+      <div id="topbar_div">
+      <img id="arrow_down_icon" src="../images/global_images/white_arrow_down.png" alt="">
+      </div>
+      <div id="text">
+        What is global warming? Global warming is directly related to climated change and is the increase of temperature on the surface of the Earth. Such increase in temperature may have diverse effects on ecosystems of animals in nature and may even cause the collapse of our society
+        <br>
+        This is an immediate problem and should be addressed as fast as possible to ensure that this increase in temperature wont be permanent. If it does become permanent, mass extinctions will occur and the eventual collapse of mankind will be inevitable due to our ignorance to the pressing issue.
+      </div>
+    </div>
+    <script src="../javascript_files/sidebar.js"></script>
   </body>
 </html>
