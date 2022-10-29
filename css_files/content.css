@@ -1,0 +1,19 @@
+.content_img {
+  width:400px;
+  padding-top:10px;
+  float:right;
+  margin-right:5%;  
+}
+
+#content {
+  position:relative;
+  margin-top:5%;
+  padding:5px;
+}
+
+.text {
+  padding:5px;
+  padding-right:20%;
+  font-size:25px;
+}
+
